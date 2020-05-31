@@ -49,9 +49,9 @@ driver = webdriver.Chrome('../chromedriver')
 driver.get('https://www.instagram.com/accounts/login/')
 ```
 
-## Simulating Click
+# Simulating Click
 
-<img src="click.png" alt="" />
+<img src="images/click.png" alt="" />
 
 
 ```python
@@ -60,6 +60,14 @@ try:
 except:
     return 'video'
 ```
+
+# Get Post Date
+
+<img src="images/date.png" alt="" />
+
+# Get Usernames
+
+<img src="images/username.png" alt="" />
 
 
 ```python
